@@ -1,0 +1,8 @@
+2026-07-09 14:18:09,798 - INFO - test_home_page_open_successfully - OK
+2026-07-09 14:18:13,206 - INFO - test_following_links_successful, Переход по ссылке: Каталог - OK
+2026-07-09 14:18:17,005 - INFO - test_following_links_successful, Переход по ссылке: Преподавателям - OK
+2026-07-09 14:18:20,508 - INFO - test_following_links_successful, Переход по ссылке: Студентам - OK
+2026-07-09 14:18:23,753 - INFO - test_following_links_successful, Переход по ссылке: Учебным заведениям - OK
+2026-07-09 14:18:27,112 - INFO - test_following_links_successful, Переход по ссылке: Обучение преподавателей - OK
+2026-07-09 14:18:33,363 - INFO - test_following_links_successful, Переход по ссылке: Новости - OK
+2026-07-09 14:18:38,622 - INFO - test_following_links_successful, Переход по ссылке: Помощь - OK
