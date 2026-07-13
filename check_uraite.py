@@ -2,9 +2,8 @@ import url
 from tests_urait import (start_home_page, close_browser, setup_logging,
 
                          test_following_links_successful,
-                         test_home_page_open_successfully,
-                         test_clicking_before_adding_item_cart,
-                         test_item_added_cart)
+                         test_home_page_open_successfully
+                         )
 import locators
 import words_to_find
 
@@ -36,6 +35,9 @@ try:
 
     # Проверка перехода по ссылке "Помощь"
     test_following_links_successful(locators.button_help, "Помощь", words_to_find.words_to_find_help)
+
+    # Проверка перехода по ссылке "Версия для слабовидящих"
+    test_following_links_successful(locators.button_version_for_visually_impaired, "Версия для слабовидящих", words_to_find.words_to_find_version_for_visually_impaired)
 
 finally:
     # 3. Закрываем браузер после выполнения всех тестов

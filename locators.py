@@ -27,6 +27,11 @@ button_news = ".main_menu > div:nth-child(7) a"
 #"body > div.main_menu_section.hide-embedded > div > div.main_menu > div:nth-child(8) > div > a"
 button_help = ".main_menu > div:nth-child(8) a"
 
+# Кнопка Версия для слабовидящих
+#"body > header > div > div > div.right_part > div.weak-sighted-temp.bvi-open.cursor-pointer > span"
+button_version_for_visually_impaired = ".bvi-open > span"
+
+
 
 
 
